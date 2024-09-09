@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HTML Non Input Form Elements">
+  <title>HTML Non Input Form Elements</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>Customer experice survey</legend>
+      <label for="Store Number">Store Number</label>
+      <select name="Store Number" id="Select Store">
+        <option value="Select Store">Select Store</option>
+        <option value="3109">3109</option>
+        <option value="2421">2421</option>
+        <option value="5357">5357</option>
+      </select>
+      <br>
+      <fieldset>
+        <legend>When You Visted</legend>
+        <label for="Date Visited">Date Visited</label>
+        <input type="date" name="Date Visited" id="Date Visited">
+        <br>
+        <label for="Time">Time</label>
+        <input type="time" name="Time" id="Time">
+      </fieldset>
+      <label for="Full Name">Full Name</label>
+      <input type="text" placeholder="Name">
+      <br>
+      <label for="Email">Email</label>
+      <input type="text" placeholder="Email">
+    </fieldset>
+    <fieldset>
+        <legend>How Would You Rate Your Level of Satisfaction With Your Visit?</legend>
+        <input type="radio" name="visit" id="Satisfied" value="Satisfied">
+        <label for="Satisfied">Satisfied</label>
+        <br>
+        <input type="radio" name="visit" id="Neither Satisfied Nor Dis Satisfied" value="Neither Satisfied Nor Dis Satisfied">
+        <label for="neither Satisfied nor dis Satisfied">Neither Satisfied Nor Dis Satisfied</label>
+        <br>
+        <input type="radio" name="visit" id="Dissatified" value="Dissatified">
+        <label for="Dissatified">Dissatified</label>
+    </fieldset>
+    <label for="textbox">Tell us about your experice:</label>
+    <br>
+    <textarea name="textbox" id="textbox"></textarea>
+    <br>
+    <label for="visits">Times Visited In The Last Month:</label>
+    <br>
+    <input type="text">
+    <br>
+    <input type="checkbox" name="please check the bow if you would be willing to be contacted" id="please check the bow if you would be willing to be contacted">
+    <label for="please check the bow if you would be willing to be contacted">please check the bow if you would be willing to be contacted</label>
+    <br>
+    <button>submit</button>
+  </form>
+</body>
+</html>
